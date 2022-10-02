@@ -1,0 +1,26 @@
+.category .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+  padding: 4rem 0;
+}
+
+.category .box-container .box {
+  text-align: center;
+}
+
+.category .box-container .box img {
+  height: 15rem;
+}
+
+.category .box-container .box h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #666;
+}
+
+.category .box-container .box:hover h3 {
+  color: #bac34e;
+}

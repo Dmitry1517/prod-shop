@@ -1,0 +1,25 @@
+.info-container .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.info-container .info img {
+  height: 7rem;
+}
+
+.info-container .info .content h3 {
+  font-size: 2rem;
+  color: #222;
+  padding-bottom: .5rem;
+}
+
+.info-container .info .content span {
+  font-size: 1.5rem;
+  color: #666;
+}
